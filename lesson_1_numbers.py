@@ -7,5 +7,4 @@ print(result)
 def sum_data(a, b):
     con = a + b
     return con
-
-print(sum_data(10, 5))
+print(sum_data(5, 5))
