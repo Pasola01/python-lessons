@@ -1,5 +1,8 @@
-def hello_world(a, b):
-    con = a + b
-    return con
+var_test = ["1", "2", "3", "4", "5", "6", "7", "8"]
 
-print(hello_world("the", "best"))
+for f in var_test:
+    if f == "6":
+        var = "hello" + f
+        print(var)
+
+

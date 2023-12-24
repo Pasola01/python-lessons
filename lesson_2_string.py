@@ -1,13 +1,6 @@
-# var_1 = "hello"
-# var_2 = "world"
-#
-# result = var_1 + var_2
-#
-# print(var_1 + " " + var_2)
+first_name = "yurii"
+last_name = "melika"
 
-name = "Yurii"
-a = "Hello {}"
+a = f"{first_name}" + " " + last_name
+print()
 
-result = a.format(name)
-
-print(result)

@@ -1,27 +1,20 @@
-# pin = 1234
-# print("enter pin")
-# user_pin = int(input())
-#
-# if user_pin == pin:
-#     print("well done")
-# else:
-#     print("wrong you have 2 try")
-#     user_pin = int(input())
-# if user_pin == pin:
-#     print("well done")
-# else:
-#     print("wrong you have 1 try")
-#     user_pin = int(input())
-# if user_pin == pin:
-#     print("well done")
-# else:
-#     print("blocked")
+correct_pin = 0000
 
-num_1 = 10
-num_2 = 20
-if num_1 > 12:
-    print("good")
-elif num_1 > 9:
-    print("second chance")
+print("Enter your pin")
+
+entered_pin = input()
+
+if correct_pin == entered_pin:
+    print("success")
 else:
-    print("bad")
+    print("error try again you have 2")
+    entered_pin = input()
+    if correct_pin == entered_pin:
+        print("success")
+    else:
+        print("error you have 1 try")
+        entered_pin = input()
+        if correct_pin == entered_pin:
+            print("ok")
+        else:
+            print(" blocked")

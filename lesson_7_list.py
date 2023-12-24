@@ -1,14 +1,13 @@
-# personal = ["Jack", "Oleg", "Yurii", "Sandy"]
-# result = personal[2] + " " + personal[3]
-#
-# print(result + " - best couple")
+user_list = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+user_name = ["Yurii", "Oleg", "Bob", "Konny", "lex"]
 
-# personal = ["Jack", "Oleg", "Yurii", "Sandy"]
-# print(personal[0:2])
+full_list = []
+full_list.append(user_list)
+full_list.append(user_name)
 
-# personal = ["Jack", "Oleg", "Yurii", "Sandy"]
-# print(personal)
-#
-# personal.append("Doni")
-# print(personal)
+print(full_list)
 
+def convert(listi):
+    return tuple(listi)
+
+print(convert(full_list))
